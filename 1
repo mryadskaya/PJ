@@ -1,9 +1,5 @@
 var_1 = 1567
-reverse = 0
-while var_1 > 0:
-    rest = var_1 % 10
-    reverse = reverse * 10 + rest
-    var_1 = var_1 // 10
-print("Число в обратном порядке:", reverse)
+var_1 = str(var_1)[::-1]
+print("Число в обратном порядке:", var_1)
 # Вывод:
 Число в обратном порядке: 7651
